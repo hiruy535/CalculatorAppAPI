@@ -1,5 +1,5 @@
 # CalculatorAppAPI
-https://github.com/hiruy535/CalculatorApps/invitations
+https://github.com/hiruy535/CalculatorAppAPI/invitations
 first name : hiruy
 last name : tamiru
  
