@@ -11,7 +11,7 @@ In the project directory, you can run:
 
 ### `npm start`
 ## Before You Run the Code
- ### `pip install djangorestframework`
+1, ### `pip install djangorestframework`
 2, pip install djangorestframework-simplejwt
 3, pip install django-rest-knox
 4,pip install django-cors-headers
