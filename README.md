@@ -10,5 +10,5 @@ To run the app use this commands
 4,pip install django-cors-headers
 5, python manage.py makemigrations
 6.python manage.py migrate
-7.python manage.py runserver
+7.python manage.py runserver 
 
