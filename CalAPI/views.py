@@ -101,6 +101,16 @@ from django.contrib.auth.models import User
 from .serializers import *
 from rest_framework.permissions import IsAuthenticated 
 
+from rest_framework.views import APIView
+from django.contrib.auth import logout
+
+class Logout(APIView):
+    def post(self, request, format=None):
+        # using Django logout
+        logout(request)
+        return Response(status=status.HTTP_200_OK)
+
+
 
 class UpdateProfileView(generics.UpdateAPIView):
 

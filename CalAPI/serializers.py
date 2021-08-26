@@ -113,14 +113,11 @@ class UpdateUserSerializer(serializers.ModelSerializer):
 
     def update(self, instance, validated_data):
 
-        if self.email != None :
-            instance.set_password(validated_data['password'])
-
         instance.first_name = validated_data['first_name']
         instance.last_name = validated_data['last_name']
         instance.email = validated_data['email']
         instance.username = validated_data['username']
-        #instance.set_password(validated_data['password'])
+        instance.set_password(validated_data['password'])
 
         instance.save()
 
